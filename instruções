@@ -27,3 +27,6 @@ git status -> veritfica o status do ramo atual
 git commit -m "Um dos commits ja feitos"(commite e uma mensagem)
 
 git log -> ver o log
+
+
+cu
