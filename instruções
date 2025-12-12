@@ -1,2 +1,29 @@
 comando git init -> inicializa um repositorio
 ls -a -> mostrar os arquivos invisiveis
+
+git branch -m master => ir para o ramo master
+
+Estar no ramo master significa que você está na linha do tempo principal do seu projeto.
+
+Imagine que seu projeto é como uma árvore:
+
+O Tronco (master): É a versão principal e oficial do seu código. É onde tudo começa.
+
+Os Galhos (outros ramos/branches): Se você quisesse testar uma ideia maluca sem estragar o projeto principal, você criaria um "galho" separado.
+
+O que isso significa na prática agora?
+Como você acabou de começar e só tem o ramo master, significa que:
+
+Você está no comando oficial: Qualquer mudança que você salvar (commit) vai direto para a história definitiva do seu projeto.
+
+Não há versões paralelas: Você não está num ambiente de testes separado; o que você fizer aqui é a "verdade" do projeto por enquanto.
+
+
+prox passo
+
+git add . -> adiciona todos os arquivos nessa paste (se tiver tido alguma mudança neles)
+git status -> veritfica o status do ramo atual
+
+git commit -m "Um dos commits ja feitos"(commite e uma mensagem)
+
+git log -> ver o log
